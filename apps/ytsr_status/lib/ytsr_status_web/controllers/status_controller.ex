@@ -1,4 +1,6 @@
 defmodule Ytsr.Web.StatusController do
+  use YtsrStatus.Web, :controller
+
   def index(conn, %{"isrcs" => isrcs}) do
     response =
       String.split(isrcs, ",")
