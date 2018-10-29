@@ -14,4 +14,4 @@ class StatusForm extends Component {
   }
 }
 
-export default connect(null)(StatusForm);
+export default connect()(StatusForm);
